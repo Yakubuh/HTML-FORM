@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <link rel="stylesheet" href="form.css">
+
+    <script src="form.js" rel="stylesheet"></script>
+</head>
+<body>
+    <div class="form">
+<form action="/action_page.php"  name="myform">
+
+    <label for="fname">First name</label><br>
+    <input class="inpu" type="text" name="fname" id="fname"><br><br>
+    <label for="lname">Last name</label><br>
+    <input class="inpu" type="text" name="lname" id="lname">
+    <br>
+
+    <p>Select your gender</p>
+
+    <!--radio box is used for single selection-->
+    <!--for radio box
+         all name should have same value-->
+
+    <input  type="radio" name="gender" id="gender" value="Male">
+    <label for="gender">male</label><br>
+
+    <input type="radio" name="gender" id="fmale" value="female">
+    <label for="fmale">female</label><br><br>
+
+    <!--checkbox is used for multiple selections-->
+     <p>Select the programming languages you have study</p>
+    <input type="checkbox" name="v1" id="v1" value="c++">
+    <label for="v1"> C++</label><br>
+
+    <input type="checkbox" name="v2" id="v2" value="python">
+    <label for="v2"> Python</label><br>
+
+     <input type="checkbox" name="v3" id="v3" value="Java">
+    <label for="v3"> Java</label> <br>
+
+    <input type="checkbox" name="v4" id="v4" value="c++">
+    <label for="v4"> Javascript</label><br>
+
+    <input type="checkbox" name="v5" id="v5" value="c++">
+    <label for="v5"> C#</label><br>
+
+
+    <p>choose your field of study</p>
+    <label for="program"></label>
+    <select name="program" id="program">
+        <option value=""> </option>
+        <option value="data">Data science</option>
+        <option value="analysis">Data analysis</option>
+        <option value="web">Web Development</option>
+        <option value="cloud">Cloud computing </option>
+        <option value="system">System engineer</option>
+
+    </select><br><br>
+    <label for="file">Upload your CV </label><br>
+    <input type="file" name="CV" id="file"><br>
+
+    <br>
+    <input type="button" onclick="myname()" value="submit"><br><br>
+
+
+</form>
+</div>
+</body>
+</html>

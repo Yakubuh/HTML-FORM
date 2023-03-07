@@ -1,0 +1,41 @@
+.form{
+    border: 2px solid #000000;
+    padding-left: 25px;
+    padding-top: 5px;
+    width: 500px;
+    height: 100%;
+    margin-left: 25%;
+  
+    background-color: burlywood;
+    opacity:0.9;
+}
+body{
+    background: url("../My page/iimages/bah1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inpu{
+    width: 300px;
+}
+
+@media only screen and (max-width:800px){
+    .form{
+        width: 250px;
+        padding: 1%;
+        opacity: 0.95;
+        height: 100%;
+       
+
+    }
+    .inpu{
+        width: 200px;
+    }
+    body{
+        background: url("bah1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    
+}
