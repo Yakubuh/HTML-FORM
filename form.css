@@ -16,6 +16,7 @@ body{
     background-size: cover;
     padding: auto;
     margin: auto;
+    margin-top:15px;
 }
 .inpu{
     width: 300px;
@@ -41,6 +42,7 @@ body{
         background-attachment: fixed;
         margin: auto;
         padding: auto;
+        margin-top:20px;
     }
 
     
