@@ -30,7 +30,7 @@
                 width: 250px;
                 padding: 1%;
                 opacity: 0.95;
-                height: 100%;
+                height: auto;
 
             }
             .inpu{
@@ -51,12 +51,12 @@
 
     if(document.myform.fname.value == null || document.myform.fname.value == "" )
     {
-        alert("first name cannot be empty");
+        alert("First name cannot be empty");
             return false;
     }
         if(document.myform.lname.value == null ||  document.myform.lname.value =="")
         {
-            alert("last name cannot be empty");
+            alert("Last name cannot be empty");
             return false;
     }
     
@@ -69,15 +69,15 @@
         document.location.reload(true);
     }
     
-    
-    }
+  }
 
-    </script>
+  </script>
 
 </head>
+    
 <body>
     <div class="form">
-<form action="/action_page.php>" autocomplete="on">
+<form action="/action_page.php>" name="myform">
 
     <label for="fname">First name</label><br>
     <input class="inpu" type="text" name="fname" id="fname"><br><br>
