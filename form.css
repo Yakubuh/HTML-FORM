@@ -10,7 +10,7 @@
     opacity:0.9;
 }
 body{
-    background: url("../My page/iimages/bah1.jpg");
+    background: url("bah1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: auto;
